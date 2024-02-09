@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" >
+        marks=parseInt(prompt("Enter your marks: "));
+        document.write("Your marks is ",marks);
+        if(marks>=75)
+        {
+            document.write("<br>Distinction");
+        }
+        else if(marks<75 && marks>=60)
+        {
+            document.write("<br>First class");
+        }
+        else if(marks<60 && marks>=50)
+        {
+            document.write("<br>Second class");
+        }
+        else if(marks<50 && marks>=40)
+        {
+            document.write("<br>Third class");
+        }
+        else if(marks<40 && marks>=35)
+        {
+            document.write("<br>Just pass ");
+        }
+        else
+        {
+            document.write("<br>Failed");
+        }
+        </script>
+</body>
+</html>

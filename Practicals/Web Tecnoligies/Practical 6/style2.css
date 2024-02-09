@@ -1,0 +1,16 @@
+name{   
+    display:block;
+    color:red;
+}
+age{
+    display:block;
+    color: green;
+}
+subject{
+    display:block;
+    color: blue;
+}
+gender{
+    display:block;
+    color: tomato;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function show()
+        {
+            name=document.frm.t1.value;
+            document.write("Username="+name);
+        }
+    </script>
+</head>
+<body>
+    <form name="frm">
+		Username<input tpye="text" name="t1"> <br>
+		<input type="button" onclick="show()" value="click">
+		<pre> <input type="reset" value="clear"></pre>
+	</form>
+</body>
+</html>

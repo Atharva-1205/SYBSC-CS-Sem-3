@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function login()
+        {
+            name=document.frm.t1.value;
+            pass=document.frm.t2.value;
+            if (name=="Atharva" && pass=="1234")
+            {
+                document.write("Thanks for your login");
+            }
+            else
+            {
+                document.write("Wrong username and password");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="frm">
+		Username<input type="text" name="t1"><br>
+		Password<input type="password" name="t2"><br>
+		<input type="button" onclick="login()" value="click">
+		<pre><input type="reset" value="clear"></pre>
+	</form>
+</body>
+</html>

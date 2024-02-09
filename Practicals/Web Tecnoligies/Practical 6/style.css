@@ -1,0 +1,47 @@
+date{
+    display:block;
+    text-align: right;
+    color: red;
+}
+adr{
+    display: block;
+    text-align: right;
+    color: red;
+}
+to{
+    display: block;
+    text-align: right;
+}
+sal{
+    display: block;
+    text-align: right;
+}
+sal1{
+    display: block;
+    text-align: right;
+}
+sub{
+    display: block;
+    text-align: center;
+    color: blue;
+}
+p1{
+    display: block;
+}
+p2{
+    display: block;
+}
+p3{
+    display: block;
+}
+end{
+    display: block;
+    text-align: right;
+}
+sign{
+    display: block;
+    text-align: right;
+}
+br{
+    display: block;
+}

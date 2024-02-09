@@ -1,0 +1,12 @@
+<!ELEMENT letter (date,adr,to,sal,sal1,sub,p1,p2,p3,end,sign)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT adr (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT sal (#PCDATA)>
+<!ELEMENT sal1 (#PCDATA)>
+<!ELEMENT sub (#PCDATA)>
+<!ELEMENT p1 (#PCDATA)>
+<!ELEMENT p2 (#PCDATA)>
+<!ELEMENT p3 (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+<!ELEMENT sign (#PCDATA)>

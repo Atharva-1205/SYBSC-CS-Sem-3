@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<!DOCTYPE letter SYSTEM "letter.dtd">
+<letter>
+    <date>30/09/2020</date>
+    <adr>153 Rose Chembur west,Mumbai-400089</adr>
+    <to>To</to>
+    <sal>Respected Principal</sal>
+    <sal1>G.N Khalsa College Matunga</sal1>
+    <sub>Sub:letter for admission in college</sub>
+    <p1>I want to seek an admission in SYBSC-CS.I have scored 95% in SSC and 'A+' grade in FYBSC</p1>
+    <p2>I hope I will get admission in your renowned college I hope I will get a response as arly as possible</p2>
+    <p3>Thanking you</p3>
+    <end>Yours Truely</end>
+    <sign>ABC</sign>
+</letter>
